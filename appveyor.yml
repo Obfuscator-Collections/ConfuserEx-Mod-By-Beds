@@ -1,0 +1,12 @@
+version: 1.0.{build}
+build:
+  project: Confuser2.sln
+  verbosity: minimal
+install:
+  # by default, all script lines are interpreted as batch
+  - git submodule update --init --recursive
+after_build:
+  - 7z a BedsDebug.zip Debug\bin\*
+artifacts:
+  - path: BedsDebug.zip
+    name: BedsDebug
