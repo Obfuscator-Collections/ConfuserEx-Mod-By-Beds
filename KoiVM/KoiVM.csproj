@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2AFE1F1-74DE-412A-92F5-50A87D0E52A4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>KoiVM</RootNamespace>
+    <AssemblyName>KoiVM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AST\ASTConstant.cs" />
+    <Compile Include="AST\ASTExpression.cs" />
+    <Compile Include="AST\ASTNode.cs" />
+    <Compile Include="AST\ASTType.cs" />
+    <Compile Include="AST\ASTVariable.cs" />
+    <Compile Include="AST\EHInfo.cs" />
+    <Compile Include="AST\ILAST\IILASTNode.cs" />
+    <Compile Include="AST\ILAST\IILASTStatement.cs" />
+    <Compile Include="AST\ILAST\ILASTAssignment.cs" />
+    <Compile Include="AST\ILAST\ILASTExpression.cs" />
+    <Compile Include="AST\ILAST\ILASTPhi.cs" />
+    <Compile Include="AST\ILAST\ILASTTree.cs" />
+    <Compile Include="AST\ILAST\ILASTVariable.cs" />
+    <Compile Include="AST\ILAST\ILASTVariableType.cs" />
+    <Compile Include="AST\IL\IHasOffset.cs" />
+    <Compile Include="AST\IL\IILOperand.cs" />
+    <Compile Include="AST\IL\ILBlock.cs" />
+    <Compile Include="AST\IL\ILBlockTarget.cs" />
+    <Compile Include="AST\IL\ILDataTarget.cs" />
+    <Compile Include="AST\IL\ILImmediate.cs" />
+    <Compile Include="AST\IL\ILInstrList.cs" />
+    <Compile Include="AST\IL\ILInstruction.cs" />
+    <Compile Include="AST\IL\ILJumpTable.cs" />
+    <Compile Include="AST\IL\ILMethodTarget.cs" />
+    <Compile Include="AST\IL\ILRegister.cs" />
+    <Compile Include="AST\IL\ILRelReference.cs" />
+    <Compile Include="AST\InstrAnnotation.cs" />
+    <Compile Include="AST\InstrCallInfo.cs" />
+    <Compile Include="AST\IR\IIROperand.cs" />
+    <Compile Include="AST\IR\IRBlockTarget.cs" />
+    <Compile Include="AST\IR\IRConstant.cs" />
+    <Compile Include="AST\IR\IRDataTarget.cs" />
+    <Compile Include="AST\IR\IRInstrList.cs" />
+    <Compile Include="AST\IR\IRInstruction.cs" />
+    <Compile Include="AST\IR\IRJumpTable.cs" />
+    <Compile Include="AST\IR\IRMetaTarget.cs" />
+    <Compile Include="AST\IR\IRPointer.cs" />
+    <Compile Include="AST\IR\IRRegister.cs" />
+    <Compile Include="AST\IR\IRVariable.cs" />
+    <Compile Include="AST\IR\IRVariableType.cs" />
+    <Compile Include="AST\PointerInfo.cs" />
+    <Compile Include="AST\TypeInference.cs" />
+    <Compile Include="CFG\BasicBlock.cs" />
+    <Compile Include="CFG\BlockFlags.cs" />
+    <Compile Include="CFG\BlockParser.cs" />
+    <Compile Include="CFG\CILInstrList.cs" />
+    <Compile Include="CFG\IBasicBlock.cs" />
+    <Compile Include="CFG\ScopeBlock.cs" />
+    <Compile Include="CFG\ScopeType.cs" />
+    <Compile Include="GenericInstantiation.cs" />
+    <Compile Include="ILAST\ILASTBuilder.cs" />
+    <Compile Include="ILAST\ILASTTransformer.cs" />
+    <Compile Include="ILAST\ITransformationHandler.cs" />
+    <Compile Include="ILAST\Transformation\ArrayTransform.cs" />
+    <Compile Include="ILAST\Transformation\BranchTransform.cs" />
+    <Compile Include="ILAST\Transformation\ILASTTypeInference.cs" />
+    <Compile Include="ILAST\Transformation\IndirectTransform.cs" />
+    <Compile Include="ILAST\Transformation\NullTransform.cs" />
+    <Compile Include="ILAST\Transformation\StringTransform.cs" />
+    <Compile Include="ILAST\Transformation\VariableInlining.cs" />
+    <Compile Include="IVMSettings.cs" />
+    <Compile Include="MethodVirtualizer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protections\SMCIRTransform.cs" />
+    <Compile Include="Protections\SMC\SMCBlock.cs" />
+    <Compile Include="Protections\SMC\SMCBlockChunk.cs" />
+    <Compile Include="Protections\SMC\SMCBlockRef.cs" />
+    <Compile Include="Protections\SMC\SMCILTransform.cs" />
+    <Compile Include="RT\BasicBlockChunk.cs" />
+    <Compile Include="RT\BasicBlockSerializer.cs" />
+    <Compile Include="RT\BinaryChunk.cs" />
+    <Compile Include="RT\DbgWriter.cs" />
+    <Compile Include="RT\HeaderChunk.cs" />
+    <Compile Include="RT\IKoiChunk.cs" />
+    <Compile Include="RT\JumpTableChunk.cs" />
+    <Compile Include="RT\KoiHeap.cs" />
+    <Compile Include="RT\Mutation\ConstantFields.cs" />
+    <Compile Include="RT\Mutation\MethodPatcher.cs" />
+    <Compile Include="RT\Mutation\Renamer.cs" />
+    <Compile Include="RT\Mutation\RequestKoiEventArgs.cs" />
+    <Compile Include="RT\Mutation\RTConstants.cs" />
+    <Compile Include="RT\Mutation\RTMap.cs" />
+    <Compile Include="RT\Mutation\RuntimeHelpers.cs" />
+    <Compile Include="RT\Mutation\RuntimeMutator.cs" />
+    <Compile Include="RT\Mutation\RuntimePatcher.cs" />
+    <Compile Include="RT\OffsetComputeEventArgs.cs" />
+    <Compile Include="RT\VMRuntime.cs" />
+    <Compile Include="Scanner.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Virtualizer.cs" />
+    <Compile Include="VisitFunc.cs" />
+    <Compile Include="VMIL\ILOpCode.cs" />
+    <Compile Include="VMIL\ILPostTransformer.cs" />
+    <Compile Include="VMIL\ILTransformer.cs" />
+    <Compile Include="VMIL\ILTranslator.cs" />
+    <Compile Include="VMIL\IPostTransform.cs" />
+    <Compile Include="VMIL\ITransform.cs" />
+    <Compile Include="VMIL\ITranslationHandler.cs" />
+    <Compile Include="VMIL\Transforms\BlockKeyTransform.cs" />
+    <Compile Include="VMIL\Transforms\EntryExitTransform.cs" />
+    <Compile Include="VMIL\Transforms\FixMethodRefTransform.cs" />
+    <Compile Include="VMIL\Transforms\ReferenceOffsetTransform.cs" />
+    <Compile Include="VMIL\Transforms\SaveInfoTransform.cs" />
+    <Compile Include="VMIL\Transforms\SaveRegistersTransform.cs" />
+    <Compile Include="VMIL\TranslationHelpers.cs" />
+    <Compile Include="VMIL\Translation\AddHandler.cs" />
+    <Compile Include="VMIL\Translation\BeginCallHandler.cs" />
+    <Compile Include="VMIL\Translation\CallHandler.cs" />
+    <Compile Include="VMIL\Translation\CmpHandler.cs" />
+    <Compile Include="VMIL\Translation\DivHandler.cs" />
+    <Compile Include="VMIL\Translation\EHRetHandler.cs" />
+    <Compile Include="VMIL\Translation\EndCallHandler.cs" />
+    <Compile Include="VMIL\Translation\EntryHandler.cs" />
+    <Compile Include="VMIL\Translation\ExitHandler.cs" />
+    <Compile Include="VMIL\Translation\FConvHandler.cs" />
+    <Compile Include="VMIL\Translation\IConvHandler.cs" />
+    <Compile Include="VMIL\Translation\JmpHandler.cs" />
+    <Compile Include="VMIL\Translation\JnzHandler.cs" />
+    <Compile Include="VMIL\Translation\JzHandler.cs" />
+    <Compile Include="VMIL\Translation\LdobjHandler.cs" />
+    <Compile Include="VMIL\Translation\LeaveHandler.cs" />
+    <Compile Include="VMIL\Translation\MovHandler.cs" />
+    <Compile Include="VMIL\Translation\MulHandler.cs" />
+    <Compile Include="VMIL\Translation\NopHandler.cs" />
+    <Compile Include="VMIL\Translation\NorHandler.cs" />
+    <Compile Include="VMIL\Translation\PopHandler.cs" />
+    <Compile Include="VMIL\Translation\PushHandler.cs" />
+    <Compile Include="VMIL\Translation\RemHandler.cs" />
+    <Compile Include="VMIL\Translation\RetHandler.cs" />
+    <Compile Include="VMIL\Translation\ShlHandler.cs" />
+    <Compile Include="VMIL\Translation\ShrHandler.cs" />
+    <Compile Include="VMIL\Translation\StobjHandler.cs" />
+    <Compile Include="VMIL\Translation\SubHandler.cs" />
+    <Compile Include="VMIL\Translation\SwtHandler.cs" />
+    <Compile Include="VMIL\Translation\SxHandler.cs" />
+    <Compile Include="VMIL\Translation\TryHandler.cs" />
+    <Compile Include="VMIL\Translation\VcallHandler.cs" />
+    <Compile Include="VMIR\IRContext.cs" />
+    <Compile Include="VMIR\IROpCode.cs" />
+    <Compile Include="VMIR\IRTransformer.cs" />
+    <Compile Include="VMIR\IRTranslator.cs" />
+    <Compile Include="VMIR\ITransform.cs" />
+    <Compile Include="VMIR\ITranslationHandler.cs" />
+    <Compile Include="VMIR\RegAlloc\BlockLiveness.cs" />
+    <Compile Include="VMIR\RegAlloc\LivenessAnalysis.cs" />
+    <Compile Include="VMIR\RegAlloc\RegisterAllocator.cs" />
+    <Compile Include="VMIR\Transforms\ConstantTypePromotionTransform.cs" />
+    <Compile Include="VMIR\Transforms\EHTransform.cs" />
+    <Compile Include="VMIR\Transforms\GetSetFlagTransform.cs" />
+    <Compile Include="VMIR\Transforms\GuardBlockTransform.cs" />
+    <Compile Include="VMIR\Transforms\InitLocalTransform.cs" />
+    <Compile Include="VMIR\Transforms\InvokeTransform.cs" />
+    <Compile Include="VMIR\Transforms\LeaTransform.cs" />
+    <Compile Include="VMIR\Transforms\LogicTransform.cs" />
+    <Compile Include="VMIR\Transforms\MarkReturnRegTransform.cs" />
+    <Compile Include="VMIR\Transforms\MetadataTransform.cs" />
+    <Compile Include="VMIR\Transforms\RegisterAllocationTransform.cs" />
+    <Compile Include="VMIR\Transforms\StackFrameTransform.cs" />
+    <Compile Include="VMIR\TranslationHelpers.cs" />
+    <Compile Include="VMIR\Translation\AddHandler.cs" />
+    <Compile Include="VMIR\Translation\AddOvfHandler.cs" />
+    <Compile Include="VMIR\Translation\AddOvfUnHandler.cs" />
+    <Compile Include="VMIR\Translation\AndHandler.cs" />
+    <Compile Include="VMIR\Translation\BoxHandler.cs" />
+    <Compile Include="VMIR\Translation\BreakHandler.cs" />
+    <Compile Include="VMIR\Translation\BrfalseHandler.cs" />
+    <Compile Include="VMIR\Translation\BrHandler.cs" />
+    <Compile Include="VMIR\Translation\BrtrueHandler.cs" />
+    <Compile Include="VMIR\Translation\CallHandler.cs" />
+    <Compile Include="VMIR\Translation\CalliHandler.cs" />
+    <Compile Include="VMIR\Translation\CallvirtHandler.cs" />
+    <Compile Include="VMIR\Translation\CastclassHandler.cs" />
+    <Compile Include="VMIR\Translation\CeqHandler.cs" />
+    <Compile Include="VMIR\Translation\CgtHandler.cs" />
+    <Compile Include="VMIR\Translation\CgtUnHandler.cs" />
+    <Compile Include="VMIR\Translation\CkfiniteHandler.cs" />
+    <Compile Include="VMIR\Translation\CltHandler.cs" />
+    <Compile Include="VMIR\Translation\CltUnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvI1Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvI2Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvI4Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvI8Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvIHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI1Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI1UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI2Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI2UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI4Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI4UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI8Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfI8UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfIHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfIUnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU1Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU1UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU2Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU2UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU4Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU4UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU8Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfU8UnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfUHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvOvfUUnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvR4Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvR8Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvRUnHandler.cs" />
+    <Compile Include="VMIR\Translation\ConvU1Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvU2Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvU4Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvU8Handler.cs" />
+    <Compile Include="VMIR\Translation\ConvUHandler.cs" />
+    <Compile Include="VMIR\Translation\DivHandler.cs" />
+    <Compile Include="VMIR\Translation\DivUnHandler.cs" />
+    <Compile Include="VMIR\Translation\DupHandler.cs" />
+    <Compile Include="VMIR\Translation\EndfilterHandler.cs" />
+    <Compile Include="VMIR\Translation\EndfinallyHandler.cs" />
+    <Compile Include="VMIR\Translation\InitobjHandler.cs" />
+    <Compile Include="VMIR\Translation\IsinstHandler.cs" />
+    <Compile Include="VMIR\Translation\LdargaHandler.cs" />
+    <Compile Include="VMIR\Translation\LdargHandler.cs" />
+    <Compile Include="VMIR\Translation\LdcI4Handler.cs" />
+    <Compile Include="VMIR\Translation\LdcI8Handler.cs" />
+    <Compile Include="VMIR\Translation\LdcR4Handler.cs" />
+    <Compile Include="VMIR\Translation\LdcR8Handler.cs" />
+    <Compile Include="VMIR\Translation\LdfldaHandler.cs" />
+    <Compile Include="VMIR\Translation\LdfldHandler.cs" />
+    <Compile Include="VMIR\Translation\LdftnHandler.cs" />
+    <Compile Include="VMIR\Translation\LdlocaHandler.cs" />
+    <Compile Include="VMIR\Translation\LdlocHandler.cs" />
+    <Compile Include="VMIR\Translation\LdnullHandler.cs" />
+    <Compile Include="VMIR\Translation\LdobjHandler.cs" />
+    <Compile Include="VMIR\Translation\LdsfldaHandler.cs" />
+    <Compile Include="VMIR\Translation\LdsfldHandler.cs" />
+    <Compile Include="VMIR\Translation\LdstrHandler.cs" />
+    <Compile Include="VMIR\Translation\LdtokenHandler.cs" />
+    <Compile Include="VMIR\Translation\LdvirtftnHandler.cs" />
+    <Compile Include="VMIR\Translation\LeaveHandler.cs" />
+    <Compile Include="VMIR\Translation\LocallocHandler.cs" />
+    <Compile Include="VMIR\Translation\MulHandler.cs" />
+    <Compile Include="VMIR\Translation\MulOvfHandler.cs" />
+    <Compile Include="VMIR\Translation\MulOvfUnHandler.cs" />
+    <Compile Include="VMIR\Translation\NegHandler.cs" />
+    <Compile Include="VMIR\Translation\NewobjHandler.cs" />
+    <Compile Include="VMIR\Translation\NopHandler.cs" />
+    <Compile Include="VMIR\Translation\NotHandler.cs" />
+    <Compile Include="VMIR\Translation\OrHandler.cs" />
+    <Compile Include="VMIR\Translation\PopHandler.cs" />
+    <Compile Include="VMIR\Translation\RemHandler.cs" />
+    <Compile Include="VMIR\Translation\RemUnHandler.cs" />
+    <Compile Include="VMIR\Translation\RetHandler.cs" />
+    <Compile Include="VMIR\Translation\RethrowHandler.cs" />
+    <Compile Include="VMIR\Translation\ShlHandler.cs" />
+    <Compile Include="VMIR\Translation\ShrHandler.cs" />
+    <Compile Include="VMIR\Translation\ShrUnHandler.cs" />
+    <Compile Include="VMIR\Translation\SizeofHandler.cs" />
+    <Compile Include="VMIR\Translation\StargHandler.cs" />
+    <Compile Include="VMIR\Translation\StfldHandler.cs" />
+    <Compile Include="VMIR\Translation\StlocHandler.cs" />
+    <Compile Include="VMIR\Translation\StobjHandler.cs" />
+    <Compile Include="VMIR\Translation\StsfldHandler.cs" />
+    <Compile Include="VMIR\Translation\SubHandler.cs" />
+    <Compile Include="VMIR\Translation\SubOvfHandler.cs" />
+    <Compile Include="VMIR\Translation\SubOvfUnHandler.cs" />
+    <Compile Include="VMIR\Translation\SwitchHandler.cs" />
+    <Compile Include="VMIR\Translation\ThrowHandler.cs" />
+    <Compile Include="VMIR\Translation\UnboxAnyHandler.cs" />
+    <Compile Include="VMIR\Translation\UnboxHandler.cs" />
+    <Compile Include="VMIR\Translation\XorHandler.cs" />
+    <Compile Include="VM\ArchDescriptor.cs" />
+    <Compile Include="VM\DataDescriptor.cs" />
+    <Compile Include="VM\FlagDescriptor.cs" />
+    <Compile Include="VM\FuncSig.cs" />
+    <Compile Include="VM\OpCodeDescriptor.cs" />
+    <Compile Include="VM\RegisterDescriptor.cs" />
+    <Compile Include="VM\RTFlagDescriptor.cs" />
+    <Compile Include="VM\RuntimeDescriptor.cs" />
+    <Compile Include="VM\VCallOpsDescriptor.cs" />
+    <Compile Include="VM\VMBlockKey.cs" />
+    <Compile Include="VM\VMCallDescriptor.cs" />
+    <Compile Include="VM\VMCalls.cs" />
+    <Compile Include="VM\VMDescriptor.cs" />
+    <Compile Include="VM\VMFlags.cs" />
+    <Compile Include="VM\VMMethodInfo.cs" />
+    <Compile Include="VM\VMRegisters.cs" />
+    <Compile Include="Watermark.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="system.koi" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dnlib\src\dnlib.csproj">
+      <Project>{fdfc1237-143f-4919-8318-4926901f4639}</Project>
+      <Name>dnlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
