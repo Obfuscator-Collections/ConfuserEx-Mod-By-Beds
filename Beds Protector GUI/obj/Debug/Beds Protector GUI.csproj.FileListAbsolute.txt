@@ -1,0 +1,11 @@
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector GUI.exe.config
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector GUI.exe
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector GUI.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds Protector GUI.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds_Protector_GUI.Form1.resources
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds_Protector_GUI.Properties.Resources.resources
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds Protector GUI.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds Protector GUI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds Protector GUI.csproj.CopyComplete
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds Protector GUI.exe
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Beds Protector GUI\obj\Debug\Beds Protector GUI.pdb

@@ -1,0 +1,7 @@
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Confuser.Protections.dll
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Confuser.Protections.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.Protections\obj\Debug\Confuser.Protections.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.Protections\obj\Debug\Confuser.Protections.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.Protections\obj\Debug\Confuser.Protections.csproj.CopyComplete
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.Protections\obj\Debug\Confuser.Protections.dll
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.Protections\obj\Debug\Confuser.Protections.pdb

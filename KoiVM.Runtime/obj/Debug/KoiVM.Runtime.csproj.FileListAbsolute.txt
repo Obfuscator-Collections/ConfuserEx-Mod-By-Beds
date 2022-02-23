@@ -1,0 +1,6 @@
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM.Runtime\bin\Debug\KoiVM.Runtime.dll
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM.Runtime\bin\Debug\KoiVM.Runtime.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM.Runtime\obj\Debug\KoiVM.Runtime.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM.Runtime\obj\Debug\KoiVM.Runtime.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM.Runtime\obj\Debug\KoiVM.Runtime.dll
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM.Runtime\obj\Debug\KoiVM.Runtime.pdb

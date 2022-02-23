@@ -1,0 +1,36 @@
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\ConfuserEx.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\CompComboBox.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\App.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\CompComboBox.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\StackTraceDecoder.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProjectRuleView.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProjectModuleView.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProjectTabAdvancedView.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\App.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Beds Protector_MarkupCompile.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Beds Protector_MarkupCompile.lref
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\MainWindow.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Skin.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\StackTraceDecoder.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\AboutTabView.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProtectTabView.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProjectRuleView.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\SettingsTabView.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProjectModuleView.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProjectTabAdvancedView.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Views\ProjectTabView.baml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Beds Protector.g.resources
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\ConfuserEx.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Beds Protector.exe
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Beds Protector.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector.exe.config
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector.exe.manifest
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector.application
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector.exe
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Beds Protector.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Beds Protector.exe.manifest
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\Beds Protector.application
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\ConfuserEx\obj\Debug\ConfuserEx.csproj.CopyComplete

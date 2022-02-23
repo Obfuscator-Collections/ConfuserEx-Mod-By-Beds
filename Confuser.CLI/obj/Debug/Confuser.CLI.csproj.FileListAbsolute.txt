@@ -1,0 +1,7 @@
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Confuser.CLI.exe
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Debug\bin\Confuser.CLI.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.CLI\obj\Debug\Confuser.CLI.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.CLI\obj\Debug\Confuser.CLI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.CLI\obj\Debug\Confuser.CLI.csproj.CopyComplete
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.CLI\obj\Debug\Confuser.CLI.exe
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\Confuser.CLI\obj\Debug\Confuser.CLI.pdb

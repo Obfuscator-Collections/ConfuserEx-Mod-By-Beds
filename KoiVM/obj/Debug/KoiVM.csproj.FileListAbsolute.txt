@@ -1,0 +1,10 @@
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\bin\Debug\KoiVM.dll
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\bin\Debug\KoiVM.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\bin\Debug\dnlib.dll
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\bin\Debug\dnlib.pdb
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\bin\Debug\dnlib.xml
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\obj\Debug\KoiVM.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\obj\Debug\KoiVM.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\obj\Debug\KoiVM.csproj.CopyComplete
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\obj\Debug\KoiVM.dll
+C:\Users\Admin\Downloads\ConfuserEx-Mod-By-Bed-master\KoiVM\obj\Debug\KoiVM.pdb
